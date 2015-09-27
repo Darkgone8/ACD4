@@ -18,17 +18,17 @@ public class testBuilderVoyage {
     //Test voyage economique
     client1.choixVoyage(new PartieVoyageEco());
     client1.construireVoyage();
-    Voyage voyage = client1.getVoyage();
+    Voyage voyage1 = client1.getVoyage();
     System.out.println(
         client1.getNomClient() + " a choisi un voyage économique avec: \n"
-            + voyage + "\n\n");
+            + voyage1 + "\n\n");
 
     //Test voyage luxe
     client2.choixVoyage(new PartieVoyageLuxe());
     client2.construireVoyage();
-    Voyage voyage4 = client2.getVoyage();
+    Voyage voyage2 = client2.getVoyage();
     System.out.println(
-        client2.getNomClient() + " a choisi un voyage luxe avec: \n" + voyage4
+        client2.getNomClient() + " a choisi un voyage luxe avec: \n" + voyage2
             + "\n\n");
   }
 }
