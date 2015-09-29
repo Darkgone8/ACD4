@@ -17,6 +17,6 @@ public class Champignon
   }
 
   public String afficheDescription() {
-    return super.afficheDescription() + ", Champignons ";
+    return super.afficheDescription() + ", Champignons";
   }
 }

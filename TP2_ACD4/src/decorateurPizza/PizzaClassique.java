@@ -9,7 +9,7 @@ package decorateurPizza;
 public class PizzaClassique
     extends Pizza {
   public PizzaClassique() {
-    description = "Pizza classique ";
+    description = "Pizza classique";
   }
 
   public double calculePrix() {
